@@ -14,8 +14,8 @@ export default function ContentRight() {
                 <Image src={"https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600"}
                     alt="user"
                     className="h-9 w-9 object-cover rounded-full"
-                    width={9}
-                    height={9}
+                    width={20}
+                    height={20}
                 />
             </div>
             <div className='card mt-5'>
