@@ -1,21 +1,24 @@
 import Image from 'next/image'
-import { BsLayoutTextSidebar } from 'react-icons/bs'
+import { BsLayoutTextSidebar,BsFillMapFill,BsFillClipboardDataFill } from 'react-icons/bs'
+
+import { MdRocketLaunch } from 'react-icons/md'
+
 
 export default function Sidebar() {
     const menu = [
-        { name: "Platform Launch", icon: <BsLayoutTextSidebar /> },
+        { name: "Platform Launch", icon: <MdRocketLaunch /> },
         { name: "Marketing Plan", icon: <BsLayoutTextSidebar /> },
-        { name: "Roadmap", icon: <BsLayoutTextSidebar /> },
-        { name: "+Create New Board", icon: <BsLayoutTextSidebar /> },
+        { name: "Roadmap", icon: <BsFillMapFill /> },
+        { name: "+Create New Board", icon: <BsFillClipboardDataFill /> },
     ]
 
     const schedulePayments = ["Monthly Rent", "Food Payments", "Utility Bills"]
 
     return (
         <>
-            <div className="h-screen border-r border-gray-200 w-64 px-9 py-9 space-y-10">
+            <div className="h-screen border-r border-gray-200 w-64 px-9 py-9 space-y-5">
                 <div className="flex flex-row items-center">
-                    <Image src="/logo.svg" alt="kanban" className="w-130 h-10" width={130} height={10} />
+                    <Image src="/logo.svg" alt="kanban" className="w-140 h-15" width={140} height={15} />
                 </div>
                 <div className='space-y-32'>
                     <div>
