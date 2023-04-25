@@ -56,7 +56,7 @@ export default function TransactionList() {
 
     return (
         <section>
-            <div className='mt-4'>
+            <div className='mt-3'>
                 <h3>Today</h3>
                 <div>
                     {today.map((val,index) => {

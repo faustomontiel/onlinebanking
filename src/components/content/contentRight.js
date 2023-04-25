@@ -8,7 +8,7 @@ import TransactionList from '/src/components/content/TransactionList'
 export default function ContentRight() {
     return (
         <section className='w-96 bg-gray-100 rounded-tl-70px overflow-hidden px-14'>
-            <div className='pt-12 flex justify-end space-x-9 items-center'>
+            <div className='pt-11 flex justify-end space-x-9 items-center'>
                 <GrNotification size={20} />
                 <BiUser size={20} />
                 <Image src={"https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600"}
